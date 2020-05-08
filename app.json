@@ -1,12 +1,20 @@
 {
   "expo": {
-    "name": "employeeapp",
+    "name": "Employee",
     "slug": "employeeapp",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "android": {
+      "package": "com.vcham.employeeapp",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.vcham.employeeapp",
+      "buildNumber": "1.0.0"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,8 +29,5 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }
   }
 }
